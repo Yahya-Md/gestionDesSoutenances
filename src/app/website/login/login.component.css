@@ -1,0 +1,23 @@
+@media (min-width:768px) {
+  .portfolio-block {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+}
+.login-dark .illustration {
+  text-align: center;
+  padding: 15px 0 20px;
+  font-size: 100px;
+  color: #2980ef;
+}
+
+.login {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  max-width: 40%;
+  padding: 60px;
+  background-color: #74b1e5;
+  border-radius: 4px;
+}
+
+

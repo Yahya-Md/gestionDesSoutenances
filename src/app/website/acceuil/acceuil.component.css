@@ -1,0 +1,22 @@
+.portfolio-block {
+  padding-bottom: 60px;
+  padding-top: 100px;
+}
+
+
+.avatar {
+  background-image :url('../../../assets/images/avatar.png');
+}
+.portfolio-block.block-intro .avatar {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 100px;
+  margin-bottom: 30px;
+}
+.portfolio-block.block-intro {
+  text-align: center;
+}
+
