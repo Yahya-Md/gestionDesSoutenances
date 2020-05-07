@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gestionDesSoutenances"
+    }
+  },
+  "defaultProject": "gestionDesSoutenances",
+  "cli": {
+    "analytics": false
+  }
 }
