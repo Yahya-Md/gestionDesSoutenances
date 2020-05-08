@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import {AcceuilComponent} from './website/acceuil/acceuil.component';
 import {NotFoundComponent} from './website/not-found/not-found.component';
 import {LoginComponent} from './website/login/login.component';
+import {InscriptionComponent} from './website/inscription/inscription.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,10 @@ const routes: Routes = [
   {
     path : 'acceuil',
     component : AcceuilComponent
+  },
+  {
+    path : 'inscription',
+    component : InscriptionComponent
   },
   {
     path : 'login',

@@ -8,6 +8,7 @@ import { FooterBarComponent } from './navigation/footer-bar/footer-bar.component
 import { AcceuilComponent } from './website/acceuil/acceuil.component';
 import { NotFoundComponent } from './website/not-found/not-found.component';
 import { LoginComponent } from './website/login/login.component';
+import { InscriptionComponent } from './website/inscription/inscription.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginComponent } from './website/login/login.component';
     FooterBarComponent,
     AcceuilComponent,
     NotFoundComponent,
-    LoginComponent
+    LoginComponent,
+    InscriptionComponent
   ],
   imports: [
     BrowserModule,
