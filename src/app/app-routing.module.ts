@@ -4,6 +4,7 @@ import {AcceuilComponent} from './website/acceuil/acceuil.component';
 import {NotFoundComponent} from './website/not-found/not-found.component';
 import {LoginComponent} from './website/login/login.component';
 import {InscriptionComponent} from './website/inscription/inscription.component';
+import {DashboardComponent} from './users/dashboard/dashboard.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path : 'acceuil',
     component : AcceuilComponent
+  },
+  {
+    path : 'dashboard',
+    component : DashboardComponent
   },
   {
     path : 'inscription',
