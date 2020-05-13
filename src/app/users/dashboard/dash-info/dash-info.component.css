@@ -22,7 +22,11 @@
   }
 }
 .sidebar {
-  width: 6.5rem;
+  width: 100%;
   min-height: 100vh;
+}
+.items{
+  color: #03396c;
+  font-size: 20px;
 }
 
