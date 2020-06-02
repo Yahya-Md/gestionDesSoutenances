@@ -16,6 +16,7 @@ import { DashContentNavComponent } from './users/dashboard/dash-content/dash-con
 import { DashContentSectionComponent } from './users/dashboard/dash-content/dash-content-section/dash-content-section.component';
 import { DashContentSectionBtnComponent } from './users/dashboard/dash-content/dash-content-section/dash-content-section-btn/dash-content-section-btn.component';
 import { DashContentSectionArticleComponent } from './users/dashboard/dash-content/dash-content-section/dash-content-section-article/dash-content-section-article.component';
+import { DashContentSectionArticleFormComponent } from './users/dashboard/dash-content/dash-content-section/dash-content-section-article/dash-content-section-article-form/dash-content-section-article-form.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { DashContentSectionArticleComponent } from './users/dashboard/dash-conte
     DashContentNavComponent,
     DashContentSectionComponent,
     DashContentSectionBtnComponent,
-    DashContentSectionArticleComponent
+    DashContentSectionArticleComponent,
+    DashContentSectionArticleFormComponent
   ],
   imports: [
     BrowserModule,
